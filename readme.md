@@ -2,11 +2,13 @@
 
 > Check if a Buffer/Uint8Array is a XZ file
 
+
 ## Install
 
-```sh
+```
 $ npm install --save is-xz
 ```
+
 
 ## Usage
 
@@ -17,6 +19,7 @@ var read = require('fs').readFileSync;
 isXz(read('file.tar.xz'));
 //=> true
 ```
+
 
 ## License
 
