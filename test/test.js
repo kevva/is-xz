@@ -1,9 +1,9 @@
 'use strict';
 
-var isXz = require('../');
 var path = require('path');
 var readChunk = require('read-chunk');
 var test = require('ava');
+var isXz = require('../');
 
 test('should detect XZ from buffer', function (t) {
 	t.plan(2);

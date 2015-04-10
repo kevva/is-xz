@@ -13,8 +13,8 @@ $ npm install --save is-xz
 ## Usage
 
 ```js
-var isXz = require('is-xz');
 var read = require('fs').readFileSync;
+var isXz = require('is-xz');
 
 isXz(read('file.tar.xz'));
 //=> true
